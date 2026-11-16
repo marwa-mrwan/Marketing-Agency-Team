@@ -1,0 +1,24 @@
+# Private client material must live outside this public package.
+.env
+.env.*
+!.env.example
+clients/
+client-data/
+private/
+artifacts/
+exports/
+attachments/
+backups/
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*.json
+*token*.json
+cookies*
+*.log
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/

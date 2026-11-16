@@ -1,0 +1,10 @@
+# Apply after dsh-base, with the official Agent Teams bundle disabled.
+- id: tool-subagent-control
+  disabled: true
+- id: tool-subagent
+  disabled: true
+- id: tool-subagent-fork
+  disabled: true
+- insert:
+    - id: agency-team-native
+      name: '@marwa-mrwan/agency-team-native'

@@ -16,6 +16,7 @@
 ## Task packet
 - task_id / role / objective:
 - user-selected Agent / provider / model / approval reference / scope:
+- selection.human_confirmation: source=direct_user_answer / reference لإجابة المستخدم المباشرة / role / scope (لا مخرجات delegate_choose_model أو lane افتراضي؛ null فقط مع pending):
 - selection_supported_by_creation_tool / actual Agent / unresolved limitation:
 - approved_route / approval_reference / backend / attempt_id أو agent_id (null إن لم يظهر):
 - state / blocked_by / write_scopes (إرشادية لا locks):
